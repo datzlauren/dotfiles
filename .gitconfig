@@ -1,0 +1,13 @@
+[push]
+	default = simple
+[user]
+	name = Lauren
+	email = ldatz@seas.upenn.edu
+[core]
+	editor = vim
+[alias]
+        lg = log --graph --pretty=format:'%Cred%h%Creset -C%(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[alias]
+        ci = commit
+[alias]
+        llog = log --date=local
